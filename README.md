@@ -15,6 +15,10 @@ CREATE TABLE IF NOT EXISTS `hits` (
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=0;
 
+Create a user for the stream database:
+
+GRANT ALL PRIVILEGES ON datebase_name.* TO 'username'@'localhost' IDENTIFIED BY 'password';	
+GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'%' IDENTIFIED BY 'password';
 
 
 
@@ -28,3 +32,4 @@ include "db/pushhits.php";
 ?&gt;
 
 </pre>
+

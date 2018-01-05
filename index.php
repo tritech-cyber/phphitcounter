@@ -28,7 +28,6 @@ html
 </div>
 </pre>
 
-
 <?php phpinfo(); ?>
 I'm not sure if this works.
 <?php

@@ -27,5 +27,4 @@ echo "$query";
 	mysqli_close($connection);
 
 ?>
-<br />
-<a href "db/">db data</a>
+

@@ -21,10 +21,10 @@ CREATE TABLE IF NOT EXISTS `hits` (
 Place this code on top of your index.php page:
 
 
-<?php
+&lt;?php
 session_start();
 $_SESSION['pagename'] = "zulu index";
 include "db/pushhits.php";
-?>
+?&gt;
 
 </pre>

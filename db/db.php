@@ -2,7 +2,7 @@
    $hostName = "localhost";
    $databaseName = "stream";
    $username = "suser";
-   $password = "woodstock";
+   $password = "the_password";
    
   }
 ?>

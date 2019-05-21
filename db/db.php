@@ -2,13 +2,7 @@
    $hostName = "localhost";
    $databaseName = "stream";
    $username = "suser";
-   $password = "password";
+   $password = "woodstock";
    
-	
-  	function clean($input, $maxlength)
- 	{
-     $input = substr($input, 0, $maxlength);
-    $input = EscapeShellCmd($input);
-   return ($input);
   }
 ?>

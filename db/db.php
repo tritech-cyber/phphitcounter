@@ -3,6 +3,4 @@
    $databaseName = "stream";
    $username = "suser";
    $password = "the_password";
-   
-  }
 ?>

@@ -20,7 +20,7 @@ Create a user for the stream database:
 GRANT ALL PRIVILEGES ON datebase_name.* TO 'username'@'localhost' IDENTIFIED BY 'password';	
 GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'%' IDENTIFIED BY 'password';
 
-GRANT ALL PRIVILEGES ON stream.* TO 'suser'@'localhost' IDENTIFIED BY 'woodstock';	
+GRANT ALL PRIVILEGES ON stream.* TO 'suser'@'localhost' IDENTIFIED BY 'password';	
 
 Place this code on top of your index.php page:
 
